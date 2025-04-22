@@ -1,0 +1,411 @@
+.service_mainbox{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 64px;
+    background-image: url(../../../Images/homepage_hero_night_1440_2x.webp);
+    background-size: 100% 100%;
+    background-position: center ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicetitle{
+    margin: 0 auto;
+    width: 97%;
+    height: 152px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.servicebox {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.service_bottom-box .seprator{
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-bottom-width: 0;
+    height: auto;
+    border-left-width: 2px;
+    align-self: stretch;
+    border-color: #cbc8c8 !important;
+}
+
+.service_bottom-box{
+    width: 100%;
+    height: 108px;
+    margin-top: 60px;
+    border-radius: 16px 16px 0 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.service_bottom-box .size{
+    max-width: 33.333333%;
+}
+
+
+.service_bottom-box .size .bottom{
+    max-width: 136px;
+    /* padding: 0 16px 8px 16px; */
+    user-select: none;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-flow: column;
+    flex-direction: column;
+}
+.service_bottom-box .size .bottom .big{
+    width: 52px !important;
+    height: 52px !important;
+}
+.service_bottom-box .size .bottom .big::after{
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    margin: auto;
+    top: -28px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(50% 50% at 50% 50%, #0075ff 0, hsla(0, 0%, 85%, 0) 100%);
+    opacity: .2;
+    
+}
+
+.bottom-icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 8px;
+}
+
+.bottom-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.5%;
+    color: rgba(4, 10, 31, 0.87);
+    text-align: center;
+}
+
+.bottom-subtitle {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: -0.5%;
+    text-transform: uppercase;
+    color: rgba(4, 10, 31, 0.6);
+    text-align: center;
+}
+
+
+
+
+.services{
+    margin: 0 auto;
+    width: 97%;
+    padding: 16px 0;
+    background:hsla(0,0%,100%,.8)!important;
+   border-radius: 16px;
+   border-top-right-radius: 0;
+   border-top-left-radius: 0;
+   box-shadow: rgba(4, 10, 31, 0.08) 0px 2px 8px 0px;
+}
+
+.services .title{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    padding: 0 20px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.services .title .search-box{
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.services .title .search-box .search{
+    border-radius: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    outline: 1px solid #bdbdbd;
+    display: flex;
+    padding: 8px 12px;
+}
+
+.services .title .search-box .search .text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(4, 10, 31, 0.6);
+}
+.services .title .search-box .search svg{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.services .title .right{
+    width: 100%;
+    text-align: center;
+}
+
+.services .title .right .Typographyy{
+    width: 100%;
+}
+.services .title .right .Typographyy div{
+    font-size: 23px;
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 500px;
+    margin-bottom: 8px;
+}
+.services .title .right .Typographyy p{
+    color:rgba(4, 10, 31, 0.6) ;
+    font-size: 16px;
+}
+
+.service_slider {
+    max-width: 616px;
+    width: 100%;
+    height: 130px;
+    position: relative;
+    background: transparent;
+}
+
+.service_slider .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.service_slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 64px;
+    gap: 16px;
+}
+
+.service_slider .swiper-slide img{
+    width: 149px;
+    height: 88px;
+}
+
+.service_slider .swiper-slide .textbox{
+    width: 148px;
+    height: 64px;
+    text-align: right;
+}
+
+.service_slider .swiper-slide .textbox .text{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #363636;
+    margin: 0 !important;
+}
+
+.service_slider .swiper-slide .textbox .sbutton{
+    /* margin-top: 16px; */
+    display: inline-block;
+    background-color: #fb0;
+    padding: 2px 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(4, 10, 31, .87);
+}
+
+
+.service_slider .swiper-button-next,
+.service_slider .swiper-button-prev {
+    color: #000;
+    --swiper-navigation-size: 10px;
+    font-weight: bolder;
+}
+
+
+
+.services .InsuranceTiles-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.services .InsuranceTiles-med-card{
+    padding: 8px;
+    width: 50%;
+    min-height:144 ;
+}
+
+.services .InsuranceTiles-big-card{
+    width: 100%;
+    padding: 8px;
+}
+
+.services .InsuranceTiles-big-card a,
+.services .InsuranceTiles-med-card a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.services .InsuranceTiles-big-card a .inside-box,
+.services .InsuranceTiles-med-card a .inside-box{
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(4, 10, 31, .08);
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.services .InsuranceTiles-big-card a .inside-box .lable,
+.services .InsuranceTiles-med-card a .inside-box .lable{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    border: 1px solid rgba(0, 143, 255, 0.7);
+    border-radius: 16px;
+    background-color: #008FFF;
+    top: -6px;
+    left: 0;
+    vertical-align: middle;
+    padding: 5px 7px;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.services .InsuranceTiles-big-card a .inside-box .flexbox,
+.services .InsuranceTiles-med-card a .inside-box .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5px;
+}
+.services .InsuranceTiles-med-card a .inside-box .flexbox{
+    flex-direction: row;
+}
+
+.services .InsuranceTiles-big-card a .inside-box .flexbox .img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.services .InsuranceTiles-big-card a .inside-box .flexbox .img img,
+.services .InsuranceTiles-med-card a .inside-box .flexbox .img img{
+    width: inherit;
+    height: inherit;
+}
+
+.services .InsuranceTiles-med-card a .inside-box .flexbox .img{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin: 5px 15px;
+}
+.services .InsuranceTiles-med-card a .inside-box .flexbox .dis{
+    text-align: center;
+}
+.services .InsuranceTiles-big-card a .inside-box .flexbox .dis{
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end ;
+}
+.services .InsuranceTiles-big-card a .inside-box .flexbox .dis :nth-child(1),
+.services .InsuranceTiles-med-card a .inside-box .flexbox .dis :nth-child(1){
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.87);
+}
+.services .InsuranceTiles-big-card a .inside-box .flexbox .dis :nth-child(2),
+.services .InsuranceTiles-med-card a .inside-box .flexbox .dis :nth-child(2){
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.38);
+}
+
+
+
+
+.services .InsuranceTiles-big-card a .inside-box .buttom
+{
+    box-sizing: border-box;
+    background: rgba(0, 143, 255, .1);
+    padding: 3px 8px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.services .InsuranceTiles-big-card a .inside-box .buttom p
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #0065FF;
+    margin: 0 !important;
+}
+
+
+.more-button{
+    margin-top: 12px;
+    margin-bottom: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.more-button :only-child{
+    background-color: rgb(0, 143, 255);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.more-button :only-child:hover{
+    background-color: rgb(0, 100, 178);
+    color: #fff;
+}

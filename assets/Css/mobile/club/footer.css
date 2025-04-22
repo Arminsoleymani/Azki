@@ -1,4 +1,5 @@
 footer{
+    /* display: none !important; */
     width: 100%;
     height: auto;
     background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
@@ -7,6 +8,7 @@ footer{
     background-size: cover;
     padding: 40px 0;
     padding-bottom: 0;
+    margin-bottom: 60px;
 }
 
 
@@ -49,7 +51,7 @@ footer{
 }
 
 .download-title span {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #fff;
     line-height: 1.4;
@@ -59,6 +61,12 @@ footer{
 .download-buttons {
     display: flex;
     align-items: center;
+}
+
+
+.download-buttons button{
+    width: 114px;
+    height: 49px;
 }
 
 .download-button {
@@ -111,22 +119,28 @@ footer{
 
 .footer-container {
     max-width: 100%;
-    padding: 64px 80px 24px;
+    padding: 2vw 4vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer-container > :nth-child(1){
-    flex-shrink: 0;
-    flex-basis: 27% !important;
-
+    flex-shrink: 0 !important;
+    flex-basis: 100% !important;
+    
 }
-
+.footer-container > :nth-child(2){
+    flex-shrink: 0 !important;
+    flex-basis: 100% !important;
+    
+}
+.footer-container > :nth-child(3),
+.footer-container > :nth-child(4){
+    flex-basis: 15% !important;
+}
 .footer-section {
     flex: 1;
     margin: 0 15px;
-    max-width: 270px;
-    
 }
 
 .footer-title {

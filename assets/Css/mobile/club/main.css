@@ -4,8 +4,14 @@
 @import url(./service-modal.css);
 @import url(./accordion.css);
 @import url(../../setting.css);
+@import url(./footer-accordion.css);
+@import url(./menu.css);
+@import url(./menu-offcanvas.css);
 
 
-.hidel{
+
+
+
+.hidem{
     display: none;
 }

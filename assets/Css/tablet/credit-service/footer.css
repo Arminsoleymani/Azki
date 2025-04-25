@@ -1,5 +1,4 @@
 footer{
-    /* display: none !important; */
     width: 100%;
     height: auto;
     background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
@@ -8,7 +7,6 @@ footer{
     background-size: cover;
     padding: 40px 0;
     padding-bottom: 0;
-    margin-bottom: 60px;
 }
 
 
@@ -18,7 +16,7 @@ footer{
     max-width: 1280px;
     width: 95%;
     margin: 30px auto;
-    height: 60px; /* Reduced height for compact look */
+    height: 80px; /* Reduced height for compact look */
     padding: 0 32px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, .10), 0 2px 8px rgba(0, 0, 0, .08);
     border-radius: 32px; /* More pill-like */
@@ -38,20 +36,20 @@ footer{
 .download-title {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 16px;
     margin-left: 32px; /* Space between title and buttons */
 }
 
 .download-title img {
-    width: 76px; /* Smaller icon */
-    height: 76px;
+    width: 96px; /* Smaller icon */
+    height: 96px;
     border-radius: 16px;
     margin-left: 0;
     margin-right: 0;
 }
 
 .download-title span {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     line-height: 1.4;
@@ -61,12 +59,6 @@ footer{
 .download-buttons {
     display: flex;
     align-items: center;
-}
-
-
-.download-buttons button{
-    width: 64px !important  ;
-    height: 49px;
 }
 
 .download-button {
@@ -119,21 +111,17 @@ footer{
 
 .footer-container {
     max-width: 100%;
-    padding: 2vw 4vw;
+    padding: 64px 80px 24px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .footer-container > :nth-child(1){
     flex-shrink: 0 !important;
-    flex-basis: 100% !important;
+    flex-basis: 27% !important;
     
 }
-.footer-container > :nth-child(2){
-    flex-shrink: 0 !important;
-    flex-basis: 100% !important;
-    
-}
+.footer-container > :nth-child(2),
 .footer-container > :nth-child(3),
 .footer-container > :nth-child(4){
     flex-basis: 15% !important;

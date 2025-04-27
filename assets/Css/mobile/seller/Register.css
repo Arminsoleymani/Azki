@@ -1,0 +1,43 @@
+.register-main{
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.register-main .register-bg{
+    clip-path: polygon(0 1%, 100% 47%, 100% 98%, 0 52%);
+    background: linear-gradient(88.65deg, #ebf9ff 2.99%, rgba(235, 249, 255, 0) 78.64%);
+    width: 80%;
+    height: 350px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+
+.register-main .register-box{
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+}
+
+.register-main .register-box .title{
+    margin: 12px !important;
+    font-size: 21px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+}
+
+.register-main .register-box img{
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    max-height: 390px;
+    display: block;
+    margin: 50px auto;
+}

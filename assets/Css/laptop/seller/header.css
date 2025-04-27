@@ -1,0 +1,97 @@
+/* Header and Navigation Styles */
+header {
+    width: 100%;
+    background-color: #ffffff00;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    direction: rtl;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo_box img{
+    width: 57px;
+    height: 57px;
+}
+.logo_box{
+    width: 57px;
+    height: 57px;
+}
+
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #040a1f !important;
+    font-size: 12px !important;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0066ff;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn {
+    background-color: #0066ff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0052cc;
+}
+
+
+.landing-bg{
+    width: 60%;
+    height: 750px;
+    clip-path: polygon(26% 56%, 28% 59%, 30% 62%, 33% 65%, 35% 66%, 38% 67%, 44% 67%, 100% 67%, 100% 0, 0 0);
+    background-color: #e1f3ff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}
+
+

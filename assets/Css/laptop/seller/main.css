@@ -1,0 +1,16 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./marketing.css);
+@import url(./facility.css);
+@import url(./Register.css);
+@import url(./your-story.css);
+@import url(./download-app.css);
+@import url(./faq.css);
+
+
+
+
+
+.hidel{
+    display: none !important;
+}

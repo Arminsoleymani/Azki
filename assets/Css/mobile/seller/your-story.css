@@ -1,0 +1,111 @@
+.story-mainbox{
+    width: 100%;
+    height: 500px;
+    background-color: #fafafa !important;
+    
+}
+
+.story-mainbox .story-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0 8px;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.story-mainbox .story-box .title{
+    text-align: center;
+
+}
+.story-mainbox .story-box .title h2{
+    margin-bottom: 32px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #333;
+}
+.story-mainbox .story-box .title h5{
+    margin-bottom: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+}
+
+.story-mainbox .story-box .vslider{
+    flex-basis: 66.66%;
+    max-width: 90%;
+    padding: 16px 16px 0;
+    height: 400px;
+    width: 450px;
+    
+}
+
+.v-slider {
+    width: 100%;
+    height: 100%;
+    /* background: #fafafa; */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.v-slider .swiper-slide {
+    width: 100%;
+    color: #fff;
+    /* background: #fafafa; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 80%;
+}
+
+.v-slider .swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    z-index: 10;
+}
+
+.v-slider .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: rgb(48, 48, 48);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.v-slider .swiper-pagination-bullet-active {
+    background: #1791f4;
+    transform: scale(1.2);
+}
+
+.v-slider .swiper-button-prev,
+.v-slider .swiper-button-next {
+    width: 35px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 2px 8px rgba(4, 10, 31, 0.08);
+    border-radius: 50%;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    --swiper-navigation-size: 12px;
+    font-weight: 700;
+}
+

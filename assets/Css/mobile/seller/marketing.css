@@ -1,0 +1,106 @@
+.seller-title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seller-title h2{
+    display: inline !important;
+    color: #040a1f;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.seller-title p{
+    display: inline !important;
+    color: rgb(117, 117, 117);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+
+.marketing-box{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+    /* padding: 40px 30px; */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.marketing-box .left{
+    padding: 0 20px;
+    flex-basis: 100%;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.marketing-box .left h2{
+    /* margin: 30px 15px 0; */
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    font-weight: 700;
+}
+.marketing-box .left h3{
+    margin: 30px 15px 0;
+    color: rgb(51, 51, 51);
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.marketing-box .left .register-btn {
+    margin-top: 24px;
+    padding: 6px 16px;
+    background-color: #008FFF;
+    border:  1px solid rgba(0, 143, 255, 0.5);;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    transition: background-color 0.3s ease;
+}
+
+.marketing-box .left .register-btn:hover {
+    background-color: rgba(0, 143, 255, 0.04);
+}
+
+.marketing-box .marketing-slider {
+    flex-basis: 100%;
+    max-width: 70%;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.marketing-slider .swiper,
+.marketing-slider .swiper-wrapper,
+.marketing-slider .swiper-slide {
+    max-width: 500px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.marketing-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+

@@ -29,6 +29,34 @@
 }
 
 
+.servicebox .box{
+    position: absolute;
+    height: 80px;
+    top: 180.762px;
+    width: 30%;
+    background-color: #0066ff00;
+}
+
+.servicebox #page1{
+    right: 0;
+}
+.servicebox #page2{
+    right: 33.33%;
+}
+.servicebox #page3{
+    right: 66.66%;
+}
+
+.servicebox input[type="radio"] {
+    display: none;
+  }
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
 .service_bottom-box .seprator{
     flex-shrink: 0;
     border-width: 0;
@@ -101,6 +129,10 @@
     text-align: center;
 }
 
+.inside-box .flexbox .img :nth-child(2){
+    display: none ;
+}
+
 .bottom-subtitle {
     font-weight: 400;
     font-size: 10px;
@@ -115,6 +147,7 @@
 
 
 .services{
+    display: none;
     margin: 0 auto;
     width: 97%;
     padding: 16px 0;
@@ -408,4 +441,91 @@
 .more-button :only-child:hover{
     background-color: rgb(0, 100, 178);
     color: #fff;
+}
+
+
+
+
+#content2 .content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+
+
+#content2 .content .right{
+    padding-top: 16px;
+    padding-right: 16px;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+
+#content2 .content .right .item-box{
+    width: 50%;
+    float: right;
+    padding: 12px;
+}
+#content2 .content .right .item{
+    padding: 24px;
+    user-select: none;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    flex-flow: column;
+    border-radius: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(4, 10, 31, .08);
+    background-color: #fff !important;
+}   
+#content2 .content .right .item:hover :first-child{
+    display: none;
+}
+#content2 .content .right .item:hover :nth-child(2){
+    display: inline-block;
+}
+#content2 .content .right .item :nth-child(2){
+    display: none;
+}
+
+#content2 .content .right .item img{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+}
+
+
+#content2 .content .right .item h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px !important;
+}
+
+#content2 .content .right .item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.38);
+}
+
+
+#content2 .Typographyy{
+    width: 100%;
+    text-align: center;
+}
+#content2 .Typographyy div{
+    font-size: 23px;
+    color: rgba(4, 10, 31, 0.87);
+    font-weight: 500px;
+    margin-bottom: 8px;
+}
+#content2 .Typographyy p{
+    color:rgba(4, 10, 31, 0.6) ;
+    font-size: 16px;
 }

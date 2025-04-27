@@ -30,6 +30,34 @@
     z-index: 1;
 }
 
+.servicebox .box{
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    width: 130px;
+    background-color: #0066ff00;
+    top: 8%;
+}
+.servicebox #page1{
+    
+    right: 0;
+}
+.servicebox #page2{
+    right: 11.5%;
+}
+.servicebox #page3{
+    right: 23%;
+}
+
+.servicebox input[type="radio"] {
+    display: none;
+  }
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
 
 .service_bottom-box .seprator{
     flex-shrink: 0;
@@ -51,10 +79,12 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .service_bottom-box .size{
     max-width: 33.333333%;
+    
 }
 
 
@@ -114,6 +144,7 @@
 
 
 .services{
+    display: none;
     width: 100%;
     padding: 16px 24px;
     background:linear-gradient(257.99deg,#fff 15.82%,hsla(0,0%,100%,0) 281.21%)!important;
@@ -127,7 +158,6 @@
     flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
-    padding: 0 20px;
     margin-bottom: 12px;
     justify-content: space-between;
 }
@@ -136,6 +166,7 @@
     flex-grow: 0;
     max-width: 33.333333%;
     flex-basis: 33.333333%;
+    padding-left: 20px;
     margin-right: auto;
     align-items: center;
     display: flex;
@@ -169,19 +200,22 @@
     width: 50%;
 }
 
-.services .title .right .Typographyy{
+.services  .Typographyy{
     width: 100%;
     text-align: right;
+    padding-right: 20px;
+    margin-top: 20px;
 }
-.services .title .right .Typographyy div{
+.services .Typographyy div{
     font-size: 23px;
     color: rgba(4, 10, 31, 0.87);
     font-weight: 500px;
     margin-bottom: 8px;
 }
-.services .title .right .Typographyy p{
+.services .Typographyy p{
     color:rgba(4, 10, 31, 0.6) ;
     font-size: 16px;
+    margin: 0 !important;
 }
 
 .service_slider {
@@ -326,9 +360,16 @@
     position: relative;
     margin: 5px 15px;
 }
-.services .InsuranceTiles-med-card a .inside-box .flexbox .dis{
-    text-align: center;
+.inside-box:hover .img :nth-child(1) {
+    display: none !important;
 }
+.inside-box:hover .img :nth-child(2) {
+    display: inline-block !important;
+}
+.inside-box .flexbox .img :nth-child(2){
+    display: none ;
+}
+
 .services .InsuranceTiles-big-card a .inside-box .flexbox .dis{
     margin-right: 20px;
     display: flex;
@@ -343,6 +384,7 @@
     line-height: 1.5;
     letter-spacing: 0%;
     color: rgba(4, 10, 31, 0.87);
+    text-align: center;
 }
 .services .InsuranceTiles-big-card a .inside-box .flexbox .dis :nth-child(2),
 .services .InsuranceTiles-med-card a .inside-box .flexbox .dis :nth-child(2){
@@ -396,4 +438,110 @@
 .more-button :only-child:hover{
     background-color: rgb(0, 100, 178);
     color: #fff;
+}
+
+
+
+#content2 .content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+#content2 .content .left{
+    padding-top: 16px;
+    padding-right: 16px;
+    flex-basis: 33.3333%;
+    max-width: 33.3333%;
+}
+#content2 .content .left .item-box{
+    margin-right: 40px !important;
+    
+}
+#content2 .content .left .item-box .banner{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 352px;
+    height: 264px;
+    background: url(../../../Images/azkivam-banner.png) 50% no-repeat;
+}
+
+#content2 .content .left .item-box .item{
+    display: flex;
+    align-items: center;
+    margin-top: 16px !important;
+}
+#content2 .content .left .item-box .item svg{
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+    color: rgba(4, 10, 31, 0.6);
+}
+#content2 .content .left .item-box .item p{
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 1.5;
+    color: rgba(4, 10, 31, 0.87);
+    margin: 0 !important;
+}
+
+#content2 .content .right{
+    padding-top: 16px;
+    padding-right: 16px;
+    flex-basis: 66.6666%;
+    max-width: 66.66666%;
+}
+
+
+#content2 .content .right .item-box{
+    width: 50%;
+    float: right;
+    padding: 12px;
+}
+#content2 .content .right .item{
+    padding: 24px;
+    user-select: none;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    flex-flow: column;
+    border-radius: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(4, 10, 31, .08);
+    background-color: #fff !important;
+}   
+#content2 .content .right .item:hover :first-child{
+    display: none;
+}
+#content2 .content .right .item:hover :nth-child(2){
+    display: inline-block;
+}
+#content2 .content .right .item :nth-child(2){
+    display: none;
+}
+
+#content2 .content .right .item img{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+}
+
+
+#content2 .content .right .item h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px !important;
+}
+
+#content2 .content .right .item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.38);
 }

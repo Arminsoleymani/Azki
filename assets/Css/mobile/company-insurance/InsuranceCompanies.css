@@ -1,0 +1,51 @@
+.Insurance-box{
+    margin: 0 auto;
+    padding: 0 16px 32px;
+    max-width: 95%;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid #e0e0e0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 97px 39px -70px rgba(4, 10, 31, .1) !important;
+}
+
+
+.Insurance-box .right{
+    /* width: 124px; */
+    height: 124px;
+    border-radius: 16px;
+    overflow: hidden;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    
+}
+.Insurance-box .right img{
+    /* width: 124px; */
+    height: 124px;
+    
+}
+.Insurance-box .left{
+    padding-right: 8px;
+    padding-top: 8px;
+    flex-basis: 60%;
+}
+.Insurance-box .left h2{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.77;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.87);
+}
+.Insurance-box .left p{
+    font-size: 14px;
+    color: #333333d9;
+    margin-top: 8px !important;
+}

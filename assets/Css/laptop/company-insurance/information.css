@@ -1,0 +1,67 @@
+.information-mainbox{
+    width: 100%;
+    position: relative;
+}
+
+.information-mainbox .information-bg{
+    position: absolute;
+    top: -104px;
+    width: 100%;
+    min-height: 928px;
+    z-index: 0;
+    background: radial-gradient(46.9% 46.1% at 100% 51.56%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 91.4%), radial-gradient(31.53% 36.84% at 51.11% 36.15%, rgba(255, 206, 67, .22) 0, rgba(255, 206, 67, 0) 100%), radial-gradient(39.83% 34.56% at 0 55.33%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+}
+
+.information-mainbox .information-box{
+    max-width: 1064px;
+    margin: 104px auto;
+    /* min-height: 500px; */
+    padding: 0 16px;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.information-mainbox .information-box h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.6;
+    letter-spacing: -0.5%;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    margin-bottom: 60px;
+}
+.information-mainbox .information-box .right{
+    flex-basis: 50%;
+    max-width: 50%;
+    max-width: 416px;
+    height: 416px;
+    margin-left: 30px;
+}
+.information-mainbox .information-box .right img{
+    width: 416px;
+    height: 416px;
+}
+.information-mainbox .information-box .left{
+    flex-basis: 50%;
+    max-width: 50%;
+
+}
+.information-mainbox .information-box .left h5{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 1.74;
+    color: rgb(4, 10, 31);
+}
+.information-mainbox .information-box .left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: rgba(4, 10, 31, 0.6);
+    margin-top: 16px !important;
+}

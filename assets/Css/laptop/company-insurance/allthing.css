@@ -1,0 +1,311 @@
+.allthing-mainbox{
+    min-height: 500px;
+    padding: 40px 16px 0px;
+    background: radial-gradient(79.5% 79.5% at 50% 0px, rgba(255, 255, 255, 0) 0px, rgb(255, 255, 255) 100%) 0% 0% / cover, url(../../../Images/insurance-companies-bg.webp) -100px center, -6.896px -135.046px no-repeat rgb(211, 211, 211);
+    margin-bottom: 50px;
+}
+
+.allthing-box{
+    max-width: 1064px;
+    margin: 0 auto;
+    padding-top: 64px !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.allthing-box .right{
+    padding-right: 16px;
+    padding-top: 16px;
+    flex-basis: 58.333333%;
+    max-width: 58.333333%;
+    flex-grow: 0;
+}
+.allthing-box .right h1{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 1.7;
+    color: #040A1F;
+}
+.allthing-box .right p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px !important;
+}
+.allthing-box .left{
+    padding-right: 16px;
+    padding-top: 16px;
+    flex-basis: 41.666667%;
+    max-width: 41.666667%;
+    flex-grow: 0;
+}
+.allthing-box .left .solarsystem{
+    width: 416px;
+    height: 416px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkbox{
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.linkbox .slash{
+    margin: 0 !important;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: hsla(0, 0%, 46%, .5);
+}
+.linkbox a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(4, 10, 31, 0.38);
+    text-decoration: none;
+}
+.linkbox .bime{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    margin-top: 1px;
+    color: rgba(4, 10, 31, 0.38);
+}
+
+.center-img{
+    position: relative;
+    width: 190px;
+    height: 208px;
+    position: absolute;
+}
+.center-img img{
+    width: 190px;
+    height: 208px;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+
+.orbit1{
+    width: 251px;
+    height: 251px;
+    background-image: url(../../../Images/orbit1.svg);
+    
+}
+.orbit2{
+    transform: rotate(90deg);
+    width: 330px;
+    height: 330px;
+    background-image: url(../../../Images/orbit2.svg);
+    
+}
+.orbit3{
+    transform: rotate(-120deg);
+    width: 416px;
+    height: 416px;
+    background-image: url(../../../Images/orbit3.svg);
+    
+}
+
+.orbit1,
+.orbit2,
+.orbit3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 200px;
+}
+
+.planet11,
+.planet12, 
+.planet21, 
+.planet22, 
+.planet31, 
+.planet32{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+}
+.planet11::after,
+.planet12::after, 
+.planet21::after, 
+.planet22::after, 
+.planet31::after, 
+.planet32::after{
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 50%;
+}
+
+
+.planet11{
+    animation: planet-11 20s linear infinite;
+    
+}
+.planet11::after{
+    background: url(../../../Images/planet11.png);
+    background-size: cover;
+    transform: translate(50%, -50%);
+}
+
+@keyframes planet-11 {
+    0% {
+        transform: rotate(0deg) translate(-120px) rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(1turn) translate(-120px) rotate(-1turn);
+    }
+}
+.planet12{
+    animation: planet-12 20s linear infinite;
+    
+}
+.planet12::after{
+    background: url(../../../Images/planet12.png);
+    background-size: cover;
+    transform: translate(50%, -50%);
+}
+
+@keyframes planet-12 {
+    0% {
+        transform: rotate(0deg) translate(120px) rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(1turn) translate(120px) rotate(-1turn);
+    }
+}
+
+
+.planet21{
+    width: 56px;
+    height: 56px;
+    animation: planet-21 30s linear infinite;
+    
+}
+.planet21::after{
+    width: 33px;
+    height: 33px;
+    transform: translate(50%, -50%) rotate(-90deg);
+    background: url(../../../Images/planet21.png);
+    background-size: cover;
+}
+
+@keyframes planet-21 {
+    0% {
+        transform: rotate(0deg) translate(-165px) rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(1turn) translate(-165px) rotate(-1turn);
+    }
+}
+
+.planet22{
+    animation: planet-22 30s linear infinite;
+    
+}
+.planet22::after{
+    width: 33px;
+    height: 33px;
+    transform: translate(50%, -50%) rotate(-90deg);
+    background: url(../../../Images/planet22.png);
+    background-size: cover;
+}
+
+@keyframes planet-22 {
+    0% {
+        transform: rotate(0deg) translate(165px) rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(1turn) translate(165px) rotate(-1turn);
+    }
+}
+
+.planet31{
+    animation: planet-31 40s linear infinite;
+    
+}
+.planet31::after{
+    width: 33px;
+    height: 33px;
+    background: url(../../../Images/planet31.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(120deg);
+}
+
+@keyframes planet-31 {
+    0% {
+        transform: rotate(0deg) translate(-208px) rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(1turn) translate(-208px) rotate(-1turn);
+    }
+}
+
+.planet32{
+    animation: planet-32 40s linear infinite;
+    
+}
+.planet32::after{
+    width: 33px;
+    height: 33px;
+    transform: translate(50%, -50%) rotate(120deg);
+    background: url(../../../Images/planet32.png);
+    background-size: cover;
+}
+
+@keyframes planet-32 {
+    0% {
+        transform: rotate(0deg) translate(208px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(1turn) translate(208px) rotate(-1turn);
+    }
+}
+
+
+
+

@@ -1,0 +1,24 @@
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./offcanvas-support.css);
+@import url(./service-modal.css);
+@import url(./faq.css);
+@import url(../../setting.css);
+@import url(./footer-accordion.css);
+@import url(./testimonies-slider.css);
+@import url(./testimonies.css);
+@import url(./information.css);
+@import url(./products.css);
+@import url(./Typography.css);
+@import url(./InsuranceCompanies.css);
+@import url(./allthing.css);
+@import url(./menu.css);
+@import url(./menu-offcanvas.css);
+
+
+
+
+
+.hidem{
+    display: none !important;
+}

@@ -1,8 +1,8 @@
 .allthing-mainbox{
     min-height: 500px;
-    padding: 40px 16px 0px;
-    background: radial-gradient(79.5% 79.5% at 50% 0px, rgba(255, 255, 255, 0) 0px, rgb(255, 255, 255) 100%) 0% 0% / cover, url(../../../Images/insurance-companies-bg.webp) -100px center, -6.896px -135.046px no-repeat rgb(211, 211, 211);
-    margin-bottom: 50px;
+    padding: 40px 16px 0;
+    background: radial-gradient(79.5% 79.5% at 50% 0, hsla(0, 0%, 100%, 0) 0, #fff 100%), url(../../../Images/insurance-companies-bg.webp) -100px, #d3d3d3 -6.896px -135.046px / 126.451% 262.538% no-repeat;
+    background-size: cover;
 }
 
 .allthing-box{

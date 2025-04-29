@@ -42,7 +42,7 @@
     flex-grow: 0;
 }
 .allthing-box .left .solarsystem{
-    width: 320px;
+    max-width: 320px;
     height: 320px;
     position: relative;
     display: flex;
@@ -314,4 +314,22 @@
     font-size: 12px;
     line-height: 1.71;
     color: rgba(4, 10, 31, 0.87);
+}
+
+@media only screen and (max-width: 350px) {
+    .orbit3{
+        display: none;
+    }
+    .planet31{
+        display: none;
+    }
+    .planet32{
+        display: none;
+    }
+    .planet31::after{
+        display: none;
+    }
+    .planet32::after{
+        display: none;
+    }
 }

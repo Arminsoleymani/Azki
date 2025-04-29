@@ -1,6 +1,5 @@
 /* ... existing code ... */
 .faq{
-  margin-top: 200px;
   background: radial-gradient(10.47% 20.55% at 75.17% 21.89%, rgba(255, 187, 0, .1) 0, rgba(255, 187, 0, 0) 100%), radial-gradient(44.95% 25.66% at 102.47% 57.32%, rgba(35, 65, 223, .08) 0, rgba(35, 65, 223, 0) 100%), radial-gradient(38.55% 41.03% at -6.28% 58.48%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
 }
 

@@ -1,0 +1,81 @@
+.benefit-mainbox{
+    /* padding-top: 64px; */
+    max-width: 960px;
+    margin: 0 auto ;
+    position: relative;
+    margin-top: 300px;
+}
+
+.benefit-img{
+    width: 200px;
+    height: 136px;
+    position: absolute;
+    right: 50%;
+    top: -134px;
+    transform: translateX(50%);
+    z-index: 9;
+}
+.benefit-img img{
+    width: 200px;
+    height: 136px;
+}
+
+.benefit-box{
+    width: 95%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    margin: 0 auto;
+    padding: 32px 24px 48px;
+    border-radius: 16px;
+    box-shadow: 0 40px 22px -29px rgba(4, 10, 31, .08);
+    border: 1px solid #e0e0e0;
+    flex-direction: column;
+}
+
+.benefit-box .right{
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.benefit-box .right h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.66;
+    color: rgb(4, 10, 31);
+}
+
+.benefit-box .left{
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-grow: 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    justify-content: space-between;
+}
+.benefit-box .left .item{
+    flex-basis: 40%;
+    max-width: 40%;
+    /* text-align: center; */
+}
+.benefit-box .left .item .title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(4, 10, 31, 0.87);
+}
+.benefit-box .left .item .dis{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px !important;
+}
+
